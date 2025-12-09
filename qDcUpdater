@@ -84,19 +84,12 @@ while getopts ":hvg-:" opt; do
    esac
 done
 
+# Update
 curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o /home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz
 
 sudo tar -xvzf /home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
 
 sudo cp /home/$USER/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
 
-if [[ ! -d "/home/$USER/QDCupdater" ]]; then
-      echo
-      echo "----------------------"
-	    echo "Discord installed"
-else
-      echo
-      echo "----------------"
-      echo "Update Complete"
-fi
-[! -d "/home/$USER/QDCupdater/" ] && echo "Discord installed"
+echo "----------------"
+echo "Update Complete"
