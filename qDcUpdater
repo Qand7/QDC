@@ -1,4 +1,4 @@
-#!/bin/bash
+o#!/bin/bash
 
 ############################################################
 # Help                                                     #
@@ -91,5 +91,6 @@ sudo tar -xvzf /home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/
 
 sudo cp /home/$USER/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
 
+echo
 echo "----------------"
 echo "Update Complete"
