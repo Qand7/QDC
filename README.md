@@ -2,7 +2,7 @@
 > This application will more than likely mess with your current Discord Installation if it wasn't already installed with this method. If so, delete Discord beforehand, perhaps with [qpurge](https://github.com/Qand7/Qbash/tree/main).
 
 # QDC
-_An Update Script for Discord on Linux, utilizing the .tar.gz API provided by Discord_
+_An Update Script for Discord on Linux, utilizing the .tar.gz Download-API provided by Discord_
 #
 I've had the problem of wanting to get Discord directly from the source and always having to go through the tedious process of extracting the .tar.gz file and replacing my old Discord with the new one so I've created this script to fix that problem for myself and perhaps others.
 
