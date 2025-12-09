@@ -12,16 +12,16 @@ Simply type `qDcUpdater`, keeping the capitalization in mind, into your shell an
 ## Installation
 #### Commands
 ```
-git clone https://github.com/Qand7/QDC/ ~/QDCupdater/
-sudo chmod +x ~/QDCupdater/install.sh
-~/QDCupdater/install.sh
+git clone https://github.com/Qand7/QDC/ /home/$USER/QDCupdater/
+sudo chmod +x /home/$USER/QDCupdater/install.sh
+/home/$USER/QDCupdater/install.sh
 qDcUpdater
 ```
 
 ## Uninstalling
 #### Commands
 ```
-sudo chmod +x ~/QDCupdater/delete.sh
-sudo ~/QDCupdater/delete.sh
+sudo chmod +x /home/$USER/QDCupdater/delete.sh
+sudo /home/$USER/QDCupdater/delete.sh
 ```
 Simply Copy + paste into your shell.
