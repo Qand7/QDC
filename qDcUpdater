@@ -88,6 +88,9 @@ curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o ~/QDC
 
 sudo tar -xvzf ~/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
 
+sudo cp /home/$USER/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
+
+
 echo
 echo "----------------"
 echo "Update Complete"
