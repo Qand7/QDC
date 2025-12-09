@@ -93,9 +93,10 @@ sudo cp /home/$USER/QDCupdater/Discord/discord.desktop /usr/share/applications/d
 if [[ ! -d "/home/$USER/QDCupdater" ]]; then
       echo
       echo "----------------------"
-	  echo "Discord installed"
+	    echo "Discord installed"
 else
       echo
       echo "----------------"
       echo "Update Complete"
 fi
+[! -d "/home/$USER/QDCupdater/" ] && echo "Discord installed"
