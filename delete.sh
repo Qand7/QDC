@@ -11,7 +11,7 @@ rm -rf /usr/share/applications/discord.desktop
 rm -rf /usr/share/Discord/
 
 # Removing Project
-rm -rf /home/$USER/QDCupdater
+rm -rf QDCupdater
 
 # Exit Message
 echo
