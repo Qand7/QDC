@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Create DC directory
-mkdir ~/QDCupdater/Discord/
+# Create .desktop File
+sudo cp ~/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
 
 # Create Updater
 sudo cp ~/QDCupdater/qDcUpdater /usr/bin/qDcUpdater
