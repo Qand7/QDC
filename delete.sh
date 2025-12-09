@@ -11,7 +11,7 @@ sudo rm -rf /usr/share/applications/discord.desktop
 sudo rm -rf /usr/share/Discord/
 
 # Removing Project
-sudo rm -rf ~/QDCupdater/*
+sudo rm -rf ~/QDCupdater
 
 # Exit Message
 echo
