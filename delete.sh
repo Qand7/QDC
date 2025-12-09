@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Removing permissions
-sudo chmod -x /usr/bin/qDcUpdater
+chmod -x /usr/bin/qDcUpdater
 
 # Removing Updater
-sudo rm -rf /usr/bin/qDcUpdater
+rm -rf /usr/bin/qDcUpdater
 
 # Removing Discord
-sudo rm -rf /usr/share/applications/discord.desktop
-sudo rm -rf /usr/share/Discord/
+rm -rf /usr/share/applications/discord.desktop
+rm -rf /usr/share/Discord/
 
 # Removing Project
-sudo rm -rf ~/QDCupdater
+rm -rf /home/$USER/QDCupdater
 
 # Exit Message
 echo
