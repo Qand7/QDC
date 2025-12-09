@@ -14,7 +14,7 @@ Simply type `qDcUpdater`, keeping the capitalization in mind, into your shell an
 ```
 git clone https://github.com/Qand7/QDC/ ~/QDCupdater/
 sudo chmod +x ~/QDCupdater/install.sh
-sudo ~/QDCupdater/install.sh
+~/QDCupdater/install.sh
 ```
 
 ## Uninstalling
