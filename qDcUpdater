@@ -31,7 +31,7 @@ Version()
 
 License()
 {
-   cat ~/QDCupdater/LICENSE
+   cat /home/$USER/QDCupdater/LICENSE
    echo
    echo
    echo "For a better view, visit:"
@@ -84,9 +84,9 @@ while getopts ":hvg-:" opt; do
    esac
 done
 
-curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o ~/QDCupdater/Discord/latest_ver_Discord.tar.gz
+curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o /home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz
 
-sudo tar -xvzf ~/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
+sudo tar -xvzf home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
 
 sudo cp /home/$USER/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
 
