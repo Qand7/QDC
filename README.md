@@ -1,5 +1,5 @@
 > [!WARNING]
-> This application will more than likely mess with your current Discord Installation if it wasn't already installed with this method. Otherwise delete Discord beforehand, perhaps with [qpurge](https://github.com/Qand7/Qbash/tree/main).
+> This application will more than likely mess with your current Discord Installation if it wasn't already installed with this method. If so, delete Discord beforehand, perhaps with [qpurge](https://github.com/Qand7/Qbash/tree/main).
 
 # QDC
 _An Update Script for Discord on Linux, utilizing the .tar.gz API provided by Discord_
