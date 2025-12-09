@@ -1,0 +1,93 @@
+#!/bin/bash
+
+############################################################
+# Help                                                     #
+############################################################
+Help()
+{
+   # Display Help
+   echo
+   echo "I've had the problem of wanting to get Discord directly from the source and always"
+   echo "having to go through the tedious process of extracting the .tar.gz file and replacing" 
+   echo "my old Discord with the new one so I've created this script to fix that problem for" 
+   echo "myself and perhaps others."   
+   echo
+   echo "Syntax: scriptTemplate [ -g| -h| --help| -v]"
+   echo
+   echo "Options:"
+   echo "    -h | --help    Print this Help."
+   echo "    -v             Print software version and exit."
+   echo "    -g             Print the GPL license notification."
+   echo
+}
+
+Version()
+{
+   # Display Software Version
+   echo
+   echo -e "Version 1.0, \e[35mqandy inc.\e[0m (not a real company , though it sounds nice)"
+   echo
+}
+
+License()
+{
+   cat ~/QDCupdater/LICENSE
+   echo
+   echo
+   echo "For a better view, visit:"
+   echo "https://github.com/Qand7/QBC/blob/main/LICENSE"
+   echo
+   echo
+   echo
+   echo "(It's just the GPL 3.0 license)"
+}
+
+############################################################
+############################################################
+# Main program                                             #
+############################################################
+############################################################
+############################################################
+# Find any files with the argument String in their name.   #
+############################################################
+while getopts ":hvg-:" opt; do
+   case $opt in
+      h) # Display Help
+         Help
+         exit;;
+
+      v) # Display Version
+         Version
+         exit;;
+
+      g) # Display License
+         License
+         exit;;
+
+     \?) # Invalid option
+         echo "Error: Invalid option"
+         exit;;
+
+      -) # Long option
+         case $OPTARG in
+
+          help) # Display Help
+                Help
+                exit;;
+                 
+          *)    # Invalid Long option 
+                echo "Error: Invalid option"
+                exit;;
+
+         esac;;
+         
+   esac
+done
+
+curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o ~/QDCupdater/Discord/latest_ver_Discord.tar.gz
+
+sudo tar -xvzf ~/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
+
+echo
+echo "----------------"
+echo "Update Complete"
