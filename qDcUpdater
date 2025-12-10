@@ -7,12 +7,17 @@ Help()
 {
    # Display Help
    echo
+   echo "An Update Script for Discord on Linux, utilizing the .tar.gz Download-API provided by Discord."
+   echo "Installs Discord directly from the source and manages updates"
+   echo
    echo "I've had the problem of wanting to get Discord directly from the source and always"
    echo "having to go through the tedious process of extracting the .tar.gz file and replacing" 
    echo "my old Discord with the new one so I've created this script to fix that problem for" 
-   echo "myself and perhaps others."   
+   echo "myself and perhaps others."
    echo
-   echo "Syntax: scriptTemplate [ -g| -h| --help| -v]"
+   echo "Simply enter the command without any dashes and it'll update Discord"
+   echo
+   echo "Syntax: qDcUpdater [ -g| -h| --help| -v]"
    echo
    echo "Options:"
    echo "    -h | --help    Print this Help."
@@ -48,7 +53,6 @@ License()
 ############################################################
 ############################################################
 ############################################################
-# Find any files with the argument String in their name.   #
 ############################################################
 while getopts ":hvg-:" opt; do
    case $opt in
