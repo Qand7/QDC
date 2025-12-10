@@ -1,4 +1,4 @@
-o#!/bin/bash
+#!/bin/bash
 
 ############################################################
 # Help                                                     #
@@ -85,13 +85,12 @@ while getopts ":hvg-:" opt; do
 done
 
 # Update
-curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o /home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz
+curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o ~/QDCupdater/Discord/latest_ver_Discord.tar.gz
+sudo tar -xvzf ~/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
 
-sudo tar -xvzf /home/$USER/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
-
-sudo cp /home/$USER/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
-
-sudo cp /home/$USER/QDCupdater/Discord/Discord /usr/bin/
+# Create .desktop .exe files
+sudo cp ~/QDCupdater/Discord/discord.desktop /usr/share/applications/discord.desktop
+sudo cp ~/QDCupdater/Discord/Discord /usr/bin/
 sudo chmod +x /usr/bin/Discord
 
 echo
