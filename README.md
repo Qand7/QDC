@@ -7,7 +7,11 @@ _An Update Script for Discord on Linux, utilizing the .tar.gz Download-API provi
 I've had the problem of wanting to get Discord directly from the source and always having to go through the tedious process of extracting the .tar.gz file and replacing my old Discord with the new one so I've created this script to fix that problem for myself and perhaps others.
 
 ## Usage
-Simply type `qDcUpdater`, keeping the capitalization in mind, into your shell and it'll call the API in order to execute the update.
+Simply type `qDcUpdater`, keeping the capitalization in mind, into your shell and it'll call the API, executing the update.
+
+To start Discord, your App-Launcher should automatically find the `discord.desktop` file, adding it to your Launch-menu.
+
+But if for some strange reason it does not (or if you don't have an App-Launcher), ``/usr/share/Discord/Discord`` should open Discord. Perhaps adding an alias like ``alias discord='/usr/share/Discord/Discord'`` to your `~/.bashrc`-file could make this easier
 
 ## Installation
 #### Commands
