@@ -27,5 +27,6 @@ qDcUpdater
 ```
 sudo chmod +x /usr/share/QDCupdater/delete.sh
 sudo /usr/share/QDCupdater/delete.sh
+rm -rf ~/QDCupdater
 ```
 Simply Copy + paste into your shell.
