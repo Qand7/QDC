@@ -89,8 +89,9 @@ while getopts ":hvg-:" opt; do
 done
 
 # Update
-curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o ~/QDCupdater/Discord/latest_ver_Discord.tar.gz
-sudo tar -xvzf ~/QDCupdater/Discord/latest_ver_Discord.tar.gz -C /usr/share/
+curl -L "https://discord.com/api/download?platform=linux&format=tar.gz" -o ~/latest_ver_Discord.tar.gz
+sudo tar -xvzf ~/latest_ver_Discord.tar.gz -C /usr/share/
+rm ~/latest_ver_Discord.tar.gz
 
 echo
 echo "----------------"
