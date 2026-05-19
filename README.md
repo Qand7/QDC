@@ -25,7 +25,7 @@ qDcUpdater
 ## Uninstalling
 #### Commands
 ```
-sudo chmod +x ~/QDCupdater/delete.sh
-sudo ~/QDCupdater/delete.sh
+sudo chmod +x /usr/share/QDCupdater/delete.sh
+sudo /usr/share/QDCupdater/delete.sh
 ```
 Simply Copy + paste into your shell.
