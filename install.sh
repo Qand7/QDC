@@ -2,7 +2,7 @@
 
 # Create Updater
 sudo cp ~/QDCupdater/qDcUpdater /usr/bin/qDcUpdater
-sudo cp -r ~/QDC /usr/share/
+sudo cp -r ~/QDCupdater /usr/share/
 sudo chmod +x /usr/bin/qDcUpdater
 
 # Create .desktop and .exe files
