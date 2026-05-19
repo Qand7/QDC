@@ -2,13 +2,15 @@
 
 # Removing permissions
 chmod -x /usr/bin/qDcUpdater
+chmod -x /usr/bin/discord
 
 # Removing Updater
-rm -rf /usr/bin/qDcUpdater
+rm /usr/bin/qDcUpdater
 
 # Removing Discord
-rm -rf /usr/share/applications/discord.desktop
+rm /usr/share/applications/discord.desktop
 rm -rf /usr/share/Discord/
+rm /usr/bin/discord
 
 # Removing Project
 rm -rf QDCupdater
