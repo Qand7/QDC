@@ -11,7 +11,7 @@ Simply type `qDcUpdater`, keeping the capitalization in mind, into your shell an
 
 To start Discord, your App-Launcher should automatically find the `discord.desktop` file, adding it to your Launch-menu.
 
-But if for some strange reason it does not (or if you don't have an App-Launcher), ``/usr/share/Discord/Discord`` should open Discord. Perhaps adding an alias like ``alias discord='/usr/share/Discord/Discord'`` to your `~/.bashrc`-file could make this easier
+But if for some strange reason it does not (or if you don't have an App-Launcher), typing ``discord`` in your terminal should open Discord.
 
 ## Installation
 #### Commands
