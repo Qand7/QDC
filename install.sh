@@ -13,10 +13,10 @@ sudo chmod +x /usr/bin/discord
 # Why does an icon need this much work (Well it isn't work, just annoying)
 # I'm pretty sure it is much simpler than 4 lines and I am dumb
 # Prolly something like "mkdir --needed whatever /path/to/whatever"
-sudo mkdir /usr/share/icons/
-sudo mkdir /usr/share/icons/hicolor/
-sudo mkdir /usr/share/icons/hicolor/512x512
-sudo cp ~/QDCupdater/Discord/discord.png /usr/share/icons/hicolor/512x512/
+# Appareently it is "mkdir -p" but I haven't used that yet. Maybe I'll
+# update this once I understand it better
+sudo mkdir -p /usr/share/icons/hicolor/512x512/apps/
+sudo cp ~/QDCupdater/Discord/discord.png /usr/share/icons/hicolor/512x512/apps/
 
 
 echo
