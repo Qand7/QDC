@@ -9,6 +9,7 @@ rm /usr/bin/qDcUpdater
 
 # Removing Discord
 rm /usr/share/applications/discord.desktop
+rm /usr/share/icons/hicolor/scalable/apps/discord.svg
 rm -rf /usr/share/Discord/
 rm -rf /usr/share/QDCupdater/
 rm /usr/bin/discord
