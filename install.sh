@@ -23,3 +23,4 @@ echo
 echo "---------------------------------------"
 echo "Updater installed"
 echo "Type \"qDcUpdater -h/--help\" for help"
+echo
