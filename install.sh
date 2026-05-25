@@ -15,8 +15,8 @@ sudo chmod +x /usr/bin/discord
 # Prolly something like "mkdir --needed whatever /path/to/whatever"
 # Appareently it is "mkdir -p" but I haven't used that yet. Maybe I'll
 # update this once I understand it better
-sudo mkdir -p /usr/share/icons/hicolor/512x512/apps/
-sudo cp ~/QDCupdater/Discord/discord.png /usr/share/icons/hicolor/512x512/apps/discord.svg
+sudo mkdir -p /usr/share/icons/hicolor/scalable/apps/
+sudo cp ~/QDCupdater/Discord/discord.png /usr/share/icons/hicolor/scalable/apps/discord.svg
 
 
 echo
